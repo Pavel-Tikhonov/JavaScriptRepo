@@ -1,0 +1,31 @@
+<!-- 
+1. Создайте html-документ с тегом script, внутри которого определите три переменные с разными типами данных:
+- переменная num со значением 18
+- переменная str со значением '81'
+- переменная isStr со значением true
+
+Добавьте переменную sum и присвойте ей сумму переменных num и str.
+Выведите в консоль браузера через команду console.log() информацию о всех переменных, используя оператор typeof. Пример: console.log("typeof num", typeof num, num).
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>les1_task1</title>
+</head>
+<body>
+    <script>
+        let
+            num = 18,
+            str = '81',
+            isStr = true,
+            sum;
+        sum = num + str;
+        console.log("typeof num", typeof num, num);
+        console.log("typeof str", typeof str, str);
+        console.log("typeof isStr", typeof isStr, isStr);
+        console.log("typeof sum", typeof sum, sum);
+    </script>
+</body>
+</html>
