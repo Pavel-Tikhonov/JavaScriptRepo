@@ -1,0 +1,36 @@
+<!-- 
+3. Создайте html-документ и подключите к нему внешний js-файл. Содержимым js-файла должна быть переменная со строкой "Привет, программистам!".
+
+Выведите в консоль браузера переменную следующими способами:
+
+- вывод строки всеми большими буквами
+
+- вывод строки всеми маленькими буквами
+
+- вывод только первого символа строки
+
+- вывод только последнего символа строки 
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>les1_task3</title>
+</head>
+<body>
+    <script src="les1_task3_js.js"></script>
+    <script>
+        console.log("Оригинал:");
+        console.log(myStr);
+        console.log("Большими буквами:");
+        console.log(myStr.toUpperCase());
+        console.log("Малыми буквами:");
+        console.log(myStr.toLowerCase());
+        console.log("Первый символ:");
+        console.log(myStr[0]);
+        console.log("Последний символ:");
+        console.log(myStr[myStr.length - 1]);
+    </script>
+</body>
+</html>
